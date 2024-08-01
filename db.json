@@ -1,0 +1,124 @@
+
+{ 
+  "ingredients": [
+    {
+        "id": 1,
+        "name": "Lettuce",
+        "image": "./images/lettuce_2-transformed.png",
+        "type": "Veggie"
+    },
+    {
+        "id": 2,
+        "name": "Red Onion",
+        "image": "./images/onion-transformed.png",
+        "calories": "11",
+        "type": "Veggie"
+      },
+      {
+        "id": 3,
+        "name": "Tomatoes",
+        "image": "./images/tomato-transformed.png",
+        "calories": "5",
+        "type": "Veggie"
+      },
+      {
+        "id": 4,
+        "name": "Cucumbers",
+        "image": "./images/cucumber-transformed.png",
+        "calories": "20",
+        "type": "Veggie"
+      },
+      {
+        "id": 5,
+        "name": "Chickpeas",
+        "image": "./images/chickpeas-transformed.png",
+        "calories": "46",
+        "type": "Veggie"
+      },
+      {
+        "id": 6,
+        "name": "Jalapeños",
+        "image": "./images/jalapenos-transformed.png",
+        "calories": "3",
+        "type": "Veggie"
+      },
+      {
+        "id": 7,
+        "name": "Feta Cheese",
+        "image": "./images/feta_cheese-transformed.png",
+        "calories": "45",
+        "type": "Misc"
+      },
+      {
+        "id": 8,
+        "name": "Impossible Meat",
+        "image": "./images/impossible_meat-transformed.png",
+        "calories": "230",
+        "type": "Protein"
+      },
+      {
+        "id": 9,
+        "name": "Falafel",
+        "image": "./images/falafel-transformed.png",
+        "calories": "240",
+        "type": "Protein"
+      },
+      {
+        "id": 10,
+        "name": "Chicken",
+        "image": "./images/chicken-transformed.png",
+        "calories": "270",
+        "type": "Protein"
+      },
+      {
+        "id": 11,
+        "name": "Lamb",
+        "image": "./images/lamb-transformed.png",
+        "calories": "380",
+        "type": "Protein"
+      },
+      {
+        "id": 12,
+        "name": "Beef",
+        "image": "./images/beef-transformed.png",
+        "calories": "320",
+        "type": "Protein"
+      },
+      {
+        "id": 13,
+        "name": "Tzatziki",
+        "image": "./images/tzatziki-transformed.png",
+        "calories": "14",
+        "type": "Sauce"
+      },
+      {
+        "id": 14,
+        "name": "Tahini",
+        "image": "./images/tahini-transformed.png",
+        "calories": "89",
+        "type": "Sauce"
+      },
+      {
+        "id": 15,
+        "name": "Cilantro Lime",
+        "image": "./images/cilantro_lime-transformed.png",
+        "calories": "35",
+        "type": "Sauce"
+      },
+      {
+        "id": 16,
+        "name": "Spicy Harissa",
+        "image": "./images/harissa-transformed.png",
+        "calories": "25",
+        "type": "Sauce"
+      },
+      {
+        "id": 17,
+        "name": "Hummus",
+        "image": "./images/hummus-transformed.png",
+        "calories": "30",
+        "type": "Sauce"
+      }
+  ]
+}
+  

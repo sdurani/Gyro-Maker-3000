@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gyro Maker</title>
+        <link rel="icon" href="https://images.emojiterra.com/google/android-nougat/512px/1f959.png">
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <script defer src="index.js"></script>
+    </head>
+
+    <body>
+        <header>
+        <h1>🥙 The Gyro Maker 3000 🥙</h1>
+        </header>
+
+        <!-- Ingredient Menu -->
+        <div id="ingredient-menu">
+            <!-- Ingredient Images Here -->
+        </div>
+        
+        <!-- Ingredient Details -->
+        <h2>Hover over the ingredient to view its details below:</h2>
+        <div id="ingredient-detail">
+            <h3 class="ingredient-name"></h3>
+            <h4 class="ingredient-type"></h4>
+            <h4 class="ingredient-calories"></h4>
+        </div>
+
+        <h2>Then, drag the ingredient to your gyro!</h2>
+        
+        <div class="container" id="starter-plate">
+            <!-- Dragged Ingredient Images Here -->
+        </div>
+        <button id="complete-button" type="submit"> 
+            Click to submit your completed gyro!
+        </button>
+        
+
+        <!-- Completed Gyro Details -->
+        <div class="card" id="new-gyro-detail">
+            <h2 class="gyro-calories">Insert Total Gyro Calories: </h2>
+        </div>
+
+         <!-- New Ingredient Form -->
+        <form id="new-ingredient-form">
+            <h4>⬇ Add Your Own New Ingredient! ⬇</h4>
+            <label for="new-ingredient-name">Name: </label>
+            <input type="text" name="name" id="new-ingredient-name" /> 
+            <br/>
+            <label for="new-ingredient-type">Type: </label>
+            <select id="new-ingredient-type" name="type">
+                <option value="">Select the ingredient type</option>
+                <option value="Sauce">Sauce</option>
+                <option value="Veggie">Veggie</option>
+                <option value="Protein">Protein</option>
+                <option value="Misc">Misc.</option>
+            </select>
+            <br/>
+            <label for="new-ingredient-image">Image: </label>
+            <input type="text" name="image" id="new-ingredient-image" />
+            <br/>
+            <label for="new-ingredient-calories">Calories: </label>
+            <input type="number" name="calories" id="new-ingredient-calories" />
+            <br/>
+            <input type="submit" id='submit-button' value="✨ Create New Ingredient ✨" />
+        </form>
+
+
+
+
+
+
+
+    </body>
+</html>
