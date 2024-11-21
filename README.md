@@ -1,47 +1,46 @@
 # The Gyro Maker 3000
 
-This is an interactive gyro maker game where users can add ingredients to a menu or select the existing ones, add them to pita bread through drag-and-drop functionality, and view the total calories of their gyro meal.
+An interactive web game where you get to play chef and build the gyro of your dreams! Choose from a tasty selection of ingredients or create your own custom additions, then drag and drop them onto your pita masterpiece. Watch the calorie count add up in real-time as you stack each delicious layer. Can you create the ultimate balanced gyro?
 
+## Goals
+- **Interactive Gameplay**: Enable an intuitive drag-and-drop interface that encourages users to experiment.
+- **Nutritional Awareness**: Display real-time calorie updates as ingredients are added, seamlessly blending health education into the game.
+- **Customized Ingredients**: Provide a flexible menu with preset ingredients and the option to add new ones, allowing users to craft unique, personalized gyro recipes.
 
-## Usage
+## How to Play
 
 To use this application, you must run the local database and start a live server to interact with the website.
+1. Run the local database server:
+   ```sh
+   json-server --watch db.json
+2. Run the live server:
+   ```sh
+   live-server
 
-```Javascript
-# Run the local database
-json-server --watch db.json
+## Tech Stack
+- **Frontend**: JavaScript, HTML, CSS for interactive gameplay and user interface.
+- **Backend**: JSON server for local ingredient storage and retrieval.
 
-# Run the live server
-live-server
-```
+## Core Functionality
+- **Event Listeners**: JavaScript handles click, submit, hover, and drag/drop events for smooth interactivity.
+- **Functions**:
+  - `addToIngredientMenu()`: Adds an ingredient to the menu with drag-and-drop enabled.
+  - `displayIngredientDetails()`: Shows ingredient details on mouseover.
+  - `displayGyroCalories()`: Calculates and displays the total calories of the assembled gyro.
+  - `displayIngredients()`: Fetches and displays ingredients from the local database.
 
-## Description
-The following JavaScript was used to give the website functionality:
-
-```Javascript
-# eventListeners
-'click' // Used to activate functionality on button clicks, such as completing the gyro.
-'submit' // Used to handle the submission of new ingredient forms.
-'mouseover' // Used to display ingredient details when hovering over an ingredient image.
-'dragstart', 'dragover', 'drop' // Used to handle drag-and-drop functionality for moving ingredients between the menu and pita bread.
-```
-
-```Javascript
-# functions
-addToIngredientMenu() // Adds an ingredient image to the menu and sets up drag-and-drop functionality.
-displayIngredientDetails() // Displays the details of an ingredient when hovered over.
-displayGyroCalories() // Calculates and displays the total calories of ingredients in the starter plate.
-addCompleteButtonListener() // Adds a click event listener to the complete button to show total calorie count.
-addSubmitListener() // Handles the submission of new ingredients via a form.
-displayIngredients() // Fetches ingredients from the local database and displays them in the menu.
-```
+## Features
+- **Ingredient Selection & Customization**: Users can select from preset ingredients or use the form to submit new ingredients to the menu.
+- **Calorie Calculator**: Click "Complete Gyro" to display the total calorie count once your masterpiece is ready.
+- **Interactive Ingredient Details**: Hover over any ingredient to instantly view details such as name, ingredient type, and calories.
+- **Drag-and-Drop Assembly**: Move ingredients from the menu to pita bread or remove them with a simple drag-and-drop motion.
 
 ## How to use the webpage
 
-Viewing Ingredients: When the page first loads, you'll see a selection of ingredient images. Hover over an image to view the ingredient's details, including name, type, and calories.
+- **Viewing Ingredients**: When the page first loads, you'll see a selection of ingredient images. Hover over an image to view the ingredient's details, including name, type, and calories.
+  
+- **Adding Your Own New Ingredients**: To add a new ingredient, fill out the provided form with the ingredient's details and click 'Submit'. The new ingredient will be added to the menu.
+  
+- **Managing Ingredients**: You can drag an ingredient from the menu to the starter plate or vice versa to put the ingredient back in the menu.
 
-Adding Your Own New Ingredients: To add a new ingredient, fill out the provided form with the ingredient's details and click 'Submit'. The new ingredient will be added to the menu.
-
-Managing Ingredients: You can drag ingredients from the menu to the starter plate or vice versa to put the ingredient back in the menu.
-
-Calculating Total Calories: Click the 'Complete Gyro' button to calculate and display the total calories of the ingredients on the starter plate, including the calories of the pita bread.
+- **Calculating Total Calories**: Click the 'Complete Gyro' button to calculate and display the total calories of the ingredients on the starter plate, including the calories of the pita bread.
