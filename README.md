@@ -7,7 +7,7 @@ An interactive web game where you get to play chef and build the gyro of your dr
 - **Nutritional Awareness**: Display real-time calorie updates as ingredients are added, seamlessly blending health education into the game.
 - **Customized Ingredients**: Provide a flexible menu with preset ingredients and the option to add new ones, allowing users to craft unique, personalized gyro recipes.
 
-## How to Play
+## How to Run the Application
 
 To use this application, you must run the local database and start a live server to interact with the website.
 1. Run the local database server:
@@ -35,7 +35,7 @@ To use this application, you must run the local database and start a live server
 - **Interactive Ingredient Details**: Hover over any ingredient to instantly view details such as name, ingredient type, and calories.
 - **Drag-and-Drop Assembly**: Move ingredients from the menu to pita bread or remove them with a simple drag-and-drop motion.
 
-## How to use the webpage
+## How to Play
 
 - **Viewing Ingredients**: When the page first loads, you'll see a selection of ingredient images. Hover over an image to view the ingredient's details, including name, type, and calories.
   
